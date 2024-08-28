@@ -1,0 +1,61 @@
+#root {
+  width: 1000px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.app-container {
+  background-color: #f8f9fa;
+  padding: 2rem;
+}
+
+.app-title {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  font-size: 2rem;
+  color: #3371af;
+  font-weight: bold;
+}
+
+.app-row {
+  margin: 0 auto;
+}
+
+.language-selector {
+  border-radius: 8px;
+}
+
+.text-area {
+  border-radius: 8px;
+  min-height: 150px;
+}
+
+.switch-col {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.switch-button {
+  border-radius: 50%;
+  padding: 0.5rem;
+  background-color: #e9ecef;
+  border: none;
+}
+
+.text-area-container {
+  position: relative;
+}
+
+.button-group {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  display: flex;
+  gap: 0.5rem;
+}
+
+.action-button {
+  border-radius: 50%;
+  padding: 0.5rem;
+}
