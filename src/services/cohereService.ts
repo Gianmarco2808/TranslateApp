@@ -54,7 +54,7 @@ export const TranslateCohere = async({fromLanguage, toLanguage, text}:{fromLangu
 
           if (response.chatHistory == null)  return 
           
-          return response.chatHistory[1].message
+          return Object.values(response.chatHistory[1])[1]         
           
      }
 
